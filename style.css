@@ -81,10 +81,13 @@ h2 {
     display: ;
 }
 
+.btn-success:hover{background-color: rgb(150, 201, 62)
+}
 .btn-success{
     background-color: rgb(150, 201, 62);
-    border: transparent;
+    border: rgb(150, 201, 62);
 }
+
 
 footer {
     margin-top: 20PX;

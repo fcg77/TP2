@@ -150,17 +150,18 @@
 
         <div class="col-4 offset-2 mt-4">
           <label for="">Cantidad</label>
-          <input id="cantidadEntrada" type="number" class="form-control" placeholder="Cantidad">
+          <input type="number" id="cantidadEntrada" class="form-control" value="0">
         </div>
 
 
 
         <div class="col-4 mt-4">
           <label for="">Categoria</label>
-          <select id="inputState" class="form-control" id="categoria">
-            <option selected value="Estudiante">Estudiante</option>
-            <option value="Trainee">Trainee</option>
-            <option value="Junior">Junior</option>
+          <select id="inputState" class="form-control" id="Categoria">
+            <option value>Selecciona la Categoria</option>
+            <option value="estudiante">Estudiante</option>
+            <option value="trainee">Trainee</option>
+            <option value="junior">Junior</option>
           </select>
         </div>
 
@@ -181,7 +182,7 @@
       <div class="row">
 
         <div class="d-grid gap-2 col-4 mt-4 offset-2">
-          <button class="btn btn-success" type="reset" onclick="reset()">Borrar</button>
+          <button class="btn btn-success" type="button" onclick="location.reload()">Borrar</button>
         </div>
         <div class="d-grid gap-2 col-4 mt-4">
           <button type="button" id="botonCalcular" onclick="resumen()" class="btn btn-success">Resumen</button>
